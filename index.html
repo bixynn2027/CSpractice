@@ -1,0 +1,32 @@
+キャラクターシート
+<div class="">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      #result {
+        color: #FF00FF;
+        font-size: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <p>生命点<input type="text" id="c1" value=""></p>
+    <p>冒険者Lv<input type="text" id="c2" value=""></p>
+    <button type="button" id="c3"　value="計算">計算</button>
+    <p id="result"></p>
+  </body>
+  <script type="tex＊t/javascript">
+    document.getElementById('c3').onclick = function(){
+    let hoge = document.getElementById('c1').value
+    let huga = document.getElementById('c2').value
+    console.log(hoge + huga)
+    document.getElementById('result').innerHTML= 'HP'+(Number(hoge) * Number(huga))
+  }
+  </script>
+
+</html>
+  <p></p>
+</div>
